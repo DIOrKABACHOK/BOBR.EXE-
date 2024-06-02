@@ -3,9 +3,6 @@
 
 from solar_objects import Star, Planet
 
-input_filename = "solar_system.txt"
-output_filename = "solar_output.txt"
-
 
 def read_space_objects_data_from_file(input_filename):
     """Cчитывает данные о космических объектах из файла, создаёт сами объекты
